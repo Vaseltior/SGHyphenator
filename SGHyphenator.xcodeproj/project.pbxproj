@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5434CFA16DECB0F007766CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5434CF916DECB0F007766CE /* Foundation.framework */; };
+		F5434CFF16DECB0F007766CE /* SGHyphenator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5434CFE16DECB0F007766CE /* SGHyphenator.h */; };
+		F5434D0116DECB0F007766CE /* SGHyphenator.m in Sources */ = {isa = PBXBuildFile; fileRef = F5434D0016DECB0F007766CE /* SGHyphenator.m */; };
+		F5434D0916DECB0F007766CE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5434D0816DECB0F007766CE /* SenTestingKit.framework */; };
+		F5434D0B16DECB0F007766CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5434D0A16DECB0F007766CE /* UIKit.framework */; };
+		F5434D0C16DECB0F007766CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5434CF916DECB0F007766CE /* Foundation.framework */; };
+		F5434D0F16DECB0F007766CE /* libSGHyphenator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5434CF616DECB0F007766CE /* libSGHyphenator.a */; };
+		F5434D1516DECB0F007766CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5434D1316DECB0F007766CE /* InfoPlist.strings */; };
+		F5434D1816DECB0F007766CE /* SGHyphenatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5434D1716DECB0F007766CE /* SGHyphenatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5434D0D16DECB0F007766CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5434CEE16DECB0F007766CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5434CF516DECB0F007766CE;
+			remoteInfo = SGHyphenator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F5434CF416DECB0F007766CE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				F5434CFF16DECB0F007766CE /* SGHyphenator.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F5434CF616DECB0F007766CE /* libSGHyphenator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSGHyphenator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5434CF916DECB0F007766CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5434CFD16DECB0F007766CE /* SGHyphenator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SGHyphenator-Prefix.pch"; sourceTree = "<group>"; };
+		F5434CFE16DECB0F007766CE /* SGHyphenator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGHyphenator.h; sourceTree = "<group>"; };
+		F5434D0016DECB0F007766CE /* SGHyphenator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGHyphenator.m; sourceTree = "<group>"; };
+		F5434D0716DECB0F007766CE /* SGHyphenatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGHyphenatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5434D0816DECB0F007766CE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F5434D0A16DECB0F007766CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F5434D1216DECB0F007766CE /* SGHyphenatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SGHyphenatorTests-Info.plist"; sourceTree = "<group>"; };
+		F5434D1416DECB0F007766CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5434D1616DECB0F007766CE /* SGHyphenatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGHyphenatorTests.h; sourceTree = "<group>"; };
+		F5434D1716DECB0F007766CE /* SGHyphenatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGHyphenatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5434CF316DECB0F007766CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5434CFA16DECB0F007766CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5434D0316DECB0F007766CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5434D0916DECB0F007766CE /* SenTestingKit.framework in Frameworks */,
+				F5434D0B16DECB0F007766CE /* UIKit.framework in Frameworks */,
+				F5434D0C16DECB0F007766CE /* Foundation.framework in Frameworks */,
+				F5434D0F16DECB0F007766CE /* libSGHyphenator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5434CED16DECB0F007766CE = {
+			isa = PBXGroup;
+			children = (
+				F5434CFB16DECB0F007766CE /* SGHyphenator */,
+				F5434D1016DECB0F007766CE /* SGHyphenatorTests */,
+				F5434CF816DECB0F007766CE /* Frameworks */,
+				F5434CF716DECB0F007766CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5434CF716DECB0F007766CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5434CF616DECB0F007766CE /* libSGHyphenator.a */,
+				F5434D0716DECB0F007766CE /* SGHyphenatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5434CF816DECB0F007766CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5434CF916DECB0F007766CE /* Foundation.framework */,
+				F5434D0816DECB0F007766CE /* SenTestingKit.framework */,
+				F5434D0A16DECB0F007766CE /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5434CFB16DECB0F007766CE /* SGHyphenator */ = {
+			isa = PBXGroup;
+			children = (
+				F5434CFE16DECB0F007766CE /* SGHyphenator.h */,
+				F5434D0016DECB0F007766CE /* SGHyphenator.m */,
+				F5434CFC16DECB0F007766CE /* Supporting Files */,
+			);
+			path = SGHyphenator;
+			sourceTree = "<group>";
+		};
+		F5434CFC16DECB0F007766CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5434CFD16DECB0F007766CE /* SGHyphenator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5434D1016DECB0F007766CE /* SGHyphenatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5434D1616DECB0F007766CE /* SGHyphenatorTests.h */,
+				F5434D1716DECB0F007766CE /* SGHyphenatorTests.m */,
+				F5434D1116DECB0F007766CE /* Supporting Files */,
+			);
+			path = SGHyphenatorTests;
+			sourceTree = "<group>";
+		};
+		F5434D1116DECB0F007766CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5434D1216DECB0F007766CE /* SGHyphenatorTests-Info.plist */,
+				F5434D1316DECB0F007766CE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5434CF516DECB0F007766CE /* SGHyphenator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5434D1B16DECB0F007766CE /* Build configuration list for PBXNativeTarget "SGHyphenator" */;
+			buildPhases = (
+				F5434CF216DECB0F007766CE /* Sources */,
+				F5434CF316DECB0F007766CE /* Frameworks */,
+				F5434CF416DECB0F007766CE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGHyphenator;
+			productName = SGHyphenator;
+			productReference = F5434CF616DECB0F007766CE /* libSGHyphenator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F5434D0616DECB0F007766CE /* SGHyphenatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5434D1E16DECB0F007766CE /* Build configuration list for PBXNativeTarget "SGHyphenatorTests" */;
+			buildPhases = (
+				F5434D0216DECB0F007766CE /* Sources */,
+				F5434D0316DECB0F007766CE /* Frameworks */,
+				F5434D0416DECB0F007766CE /* Resources */,
+				F5434D0516DECB0F007766CE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5434D0E16DECB0F007766CE /* PBXTargetDependency */,
+			);
+			name = SGHyphenatorTests;
+			productName = SGHyphenatorTests;
+			productReference = F5434D0716DECB0F007766CE /* SGHyphenatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5434CEE16DECB0F007766CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Samuel Grau";
+			};
+			buildConfigurationList = F5434CF116DECB0F007766CE /* Build configuration list for PBXProject "SGHyphenator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5434CED16DECB0F007766CE;
+			productRefGroup = F5434CF716DECB0F007766CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5434CF516DECB0F007766CE /* SGHyphenator */,
+				F5434D0616DECB0F007766CE /* SGHyphenatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5434D0416DECB0F007766CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5434D1516DECB0F007766CE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F5434D0516DECB0F007766CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5434CF216DECB0F007766CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5434D0116DECB0F007766CE /* SGHyphenator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5434D0216DECB0F007766CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5434D1816DECB0F007766CE /* SGHyphenatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5434D0E16DECB0F007766CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5434CF516DECB0F007766CE /* SGHyphenator */;
+			targetProxy = F5434D0D16DECB0F007766CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5434D1316DECB0F007766CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5434D1416DECB0F007766CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5434D1916DECB0F007766CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5434D1A16DECB0F007766CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5434D1C16DECB0F007766CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SGHyphenator.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SGHyphenator/SGHyphenator-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F5434D1D16DECB0F007766CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SGHyphenator.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SGHyphenator/SGHyphenator-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F5434D1F16DECB0F007766CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SGHyphenator/SGHyphenator-Prefix.pch";
+				INFOPLIST_FILE = "SGHyphenatorTests/SGHyphenatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F5434D2016DECB0F007766CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SGHyphenator/SGHyphenator-Prefix.pch";
+				INFOPLIST_FILE = "SGHyphenatorTests/SGHyphenatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5434CF116DECB0F007766CE /* Build configuration list for PBXProject "SGHyphenator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5434D1916DECB0F007766CE /* Debug */,
+				F5434D1A16DECB0F007766CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5434D1B16DECB0F007766CE /* Build configuration list for PBXNativeTarget "SGHyphenator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5434D1C16DECB0F007766CE /* Debug */,
+				F5434D1D16DECB0F007766CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5434D1E16DECB0F007766CE /* Build configuration list for PBXNativeTarget "SGHyphenatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5434D1F16DECB0F007766CE /* Debug */,
+				F5434D2016DECB0F007766CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5434CEE16DECB0F007766CE /* Project object */;
+}
