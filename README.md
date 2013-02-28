@@ -17,6 +17,22 @@ This means the word can be split like this *at-ten-tion*. So if the text is not 
 * atten-
 * attention
 
+##### Justified text without hyphenation
+
+```
+We,       therefore,      the
+representatives of the United
+States of America...
+```
+
+##### Justified text with hyphenation
+
+```
+We, therefore, the represen-
+tatives of the United States
+of America...
+```
+
 Starting the new line with the remaining not used part of the word.
 
 Now, if you want to use it :
