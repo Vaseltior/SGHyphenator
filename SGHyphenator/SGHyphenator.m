@@ -129,7 +129,7 @@ static SGHyphenator * sharedInstance = nil;
 	NSMutableArray *points = [[NSMutableArray alloc] init];
 	for(NSUInteger i=0; i<[numbers count]; i++) {
 		if ( [(NSString *)[numbers objectAtIndex:i] compare:@""] == NSOrderedSame ) {
-			[points addObject:[NSNumber numberWithInt:0]];
+			[points addObject:@(0)];
             
 		} else {
 			[points addObject:[NSNumber numberWithInt:[[numbers objectAtIndex:i] intValue]]];
@@ -162,7 +162,7 @@ static SGHyphenator * sharedInstance = nil;
 	NSString *workingword = [NSString stringWithFormat:@".%@.", [word lowercaseString]];
 	NSMutableArray *points = [[NSMutableArray alloc] initWithCapacity:[workingword length]+1];
 	for (NSUInteger k=0; k<[workingword length]+1; k++) {
-		[points insertObject:[NSNumber numberWithInt:0] atIndex:0];
+		[points insertObject:@(0) atIndex:0];
 	}
     
 	//points = new int[workingword.length() + 1];
@@ -199,15 +199,15 @@ static SGHyphenator * sharedInstance = nil;
 		}
 	}
 	
-	[points replaceObjectAtIndex:0 withObject:[NSNumber numberWithInt:0]];
-	[points replaceObjectAtIndex:1 withObject:[NSNumber numberWithInt:0]];
-	[points replaceObjectAtIndex:2 withObject:[NSNumber numberWithInt:0]];
+	[points replaceObjectAtIndex:0 withObject:@(0)];
+	[points replaceObjectAtIndex:1 withObject:@(0)];
+	[points replaceObjectAtIndex:2 withObject:@(0)];
 	
 	NSUInteger len = [points count];
 	
-	[points replaceObjectAtIndex:len-1 withObject:[NSNumber numberWithInt:0]];
-	[points replaceObjectAtIndex:len-2 withObject:[NSNumber numberWithInt:0]];
-	[points replaceObjectAtIndex:len-3 withObject:[NSNumber numberWithInt:0]];
+	[points replaceObjectAtIndex:len-1 withObject:@(0)];
+	[points replaceObjectAtIndex:len-2 withObject:@(0)];
+	[points replaceObjectAtIndex:len-3 withObject:@(0)];
 	
 	NSMutableString *tstr = [[NSMutableString alloc] init];
 	
