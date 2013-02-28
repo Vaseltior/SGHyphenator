@@ -13,6 +13,16 @@
 @property (nonatomic, retain)	NSString				*sep;
 @property (nonatomic, retain)	NSMutableDictionary		*patmap, *excmap;
 
+/**
+ * @brief A pattern consists of letters, numbers and dots, e.g.: .mis2s1 Even
+ * numbers indicate an unacceptable location for a hyphen, odd numbers
+ * indicate an acceptable location. Higher numbers are superior over lower
+ * numbers.
+ */
+- (BOOL)addPattern:(NSString *)aPattern;
+
+- (BOOL)addException:(NSString *)aPattern;
+
 @end
 
 @implementation SGHyphenator

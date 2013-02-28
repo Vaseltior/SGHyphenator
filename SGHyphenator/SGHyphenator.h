@@ -45,7 +45,7 @@
  *
  * @param word Word to hyphenate
  *
- * @return Collection Collection of strings representing the hyphens
+ * @return a Collection of strings representing the hyphens
  */
 - (NSArray *)hyphenate:(NSString *)word;
 
@@ -56,14 +56,5 @@
  */
 - (void)setPatternFile:(NSString *)path;
 - (void)setExceptionFile:(NSString *)path;
-
-/**
- * A pattern consists of letters, numbers and dots, e.g.: .mis2s1 Even
- * numbers indicate an unacceptable location for a hyphen, odd numbers
- * indicate an acceptable location. Higher numbers are superior over lower
- * numbers.
- */
-- (BOOL)addPattern:(NSString *)aPattern;
-- (BOOL)addException:(NSString *)aPattern;
 
 @end
