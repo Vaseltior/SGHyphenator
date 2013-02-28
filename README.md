@@ -19,7 +19,16 @@ This means the word can be split like this *at-ten-tion*. So if the text is not 
 
 Starting the new line with the remaining not used part of the word.
 
+Now, if you want to use it :
 
+```
+// Call the singleton, and ask for the french pattern to be loaded
+[[SGHyphenator sharedInstance] setPatternFile:@"hyphens_fr"];
+
+// Hyphenate a word
+NSArray * hyphenatedList = [[SGHyphenator sharedInstance] hyphenate:@"attention"];
+
+```
 
 ## Current languages
 
