@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		863CCCCFD9814D8C9A695011 /* libPods-SGHyphenatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF92556197F4306BE7A617E /* libPods-SGHyphenatorTests.a */; };
 		F5434CFA16DECB0F007766CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5434CF916DECB0F007766CE /* Foundation.framework */; };
 		F5434CFF16DECB0F007766CE /* SGHyphenator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5434CFE16DECB0F007766CE /* SGHyphenator.h */; };
 		F5434D0116DECB0F007766CE /* SGHyphenator.m in Sources */ = {isa = PBXBuildFile; fileRef = F5434D0016DECB0F007766CE /* SGHyphenator.m */; };
@@ -16,6 +17,9 @@
 		F5434D0F16DECB0F007766CE /* libSGHyphenator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5434CF616DECB0F007766CE /* libSGHyphenator.a */; };
 		F5434D1516DECB0F007766CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5434D1316DECB0F007766CE /* InfoPlist.strings */; };
 		F5434D1816DECB0F007766CE /* SGHyphenatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5434D1716DECB0F007766CE /* SGHyphenatorTests.m */; };
+		F5434D2416DECEF5007766CE /* SGHyphenatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = F5434D2316DECEF5007766CE /* SGHyphenatorSpec.m */; };
+		F5434D2616DED342007766CE /* SGHyphenator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5434D2116DECE01007766CE /* SGHyphenator.bundle */; };
+		F5434D2816DED3AD007766CE /* SGHyphenator.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5434D2116DECE01007766CE /* SGHyphenator.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,17 +35,20 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		F5434CF416DECB0F007766CE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
 				F5434CFF16DECB0F007766CE /* SGHyphenator.h in CopyFiles */,
+				F5434D2816DED3AD007766CE /* SGHyphenator.bundle in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B1C607F730C24A42AB8B9B59 /* Pods-SGHyphenatorTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGHyphenatorTests.xcconfig"; path = "../Pods/Pods-SGHyphenatorTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		DFF92556197F4306BE7A617E /* libPods-SGHyphenatorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SGHyphenatorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5434CF616DECB0F007766CE /* libSGHyphenator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSGHyphenator.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5434CF916DECB0F007766CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F5434CFD16DECB0F007766CE /* SGHyphenator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SGHyphenator-Prefix.pch"; sourceTree = "<group>"; };
@@ -54,6 +61,8 @@
 		F5434D1416DECB0F007766CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5434D1616DECB0F007766CE /* SGHyphenatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGHyphenatorTests.h; sourceTree = "<group>"; };
 		F5434D1716DECB0F007766CE /* SGHyphenatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGHyphenatorTests.m; sourceTree = "<group>"; };
+		F5434D2116DECE01007766CE /* SGHyphenator.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SGHyphenator.bundle; sourceTree = "<group>"; };
+		F5434D2316DECEF5007766CE /* SGHyphenatorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGHyphenatorSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +82,7 @@
 				F5434D0B16DECB0F007766CE /* UIKit.framework in Frameworks */,
 				F5434D0C16DECB0F007766CE /* Foundation.framework in Frameworks */,
 				F5434D0F16DECB0F007766CE /* libSGHyphenator.a in Frameworks */,
+				863CCCCFD9814D8C9A695011 /* libPods-SGHyphenatorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +96,7 @@
 				F5434D1016DECB0F007766CE /* SGHyphenatorTests */,
 				F5434CF816DECB0F007766CE /* Frameworks */,
 				F5434CF716DECB0F007766CE /* Products */,
+				B1C607F730C24A42AB8B9B59 /* Pods-SGHyphenatorTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +115,7 @@
 				F5434CF916DECB0F007766CE /* Foundation.framework */,
 				F5434D0816DECB0F007766CE /* SenTestingKit.framework */,
 				F5434D0A16DECB0F007766CE /* UIKit.framework */,
+				DFF92556197F4306BE7A617E /* libPods-SGHyphenatorTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,6 +126,7 @@
 				F5434CFE16DECB0F007766CE /* SGHyphenator.h */,
 				F5434D0016DECB0F007766CE /* SGHyphenator.m */,
 				F5434CFC16DECB0F007766CE /* Supporting Files */,
+				F5434D2116DECE01007766CE /* SGHyphenator.bundle */,
 			);
 			path = SGHyphenator;
 			sourceTree = "<group>";
@@ -132,6 +145,7 @@
 				F5434D1616DECB0F007766CE /* SGHyphenatorTests.h */,
 				F5434D1716DECB0F007766CE /* SGHyphenatorTests.m */,
 				F5434D1116DECB0F007766CE /* Supporting Files */,
+				F5434D2316DECEF5007766CE /* SGHyphenatorSpec.m */,
 			);
 			path = SGHyphenatorTests;
 			sourceTree = "<group>";
@@ -173,6 +187,8 @@
 				F5434D0316DECB0F007766CE /* Frameworks */,
 				F5434D0416DECB0F007766CE /* Resources */,
 				F5434D0516DECB0F007766CE /* ShellScript */,
+				DD17C14AFFB040E79B1A63B8 /* Copy Pods Resources */,
+				F5434D2A16DED479007766CE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -217,12 +233,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5434D1516DECB0F007766CE /* InfoPlist.strings in Resources */,
+				F5434D2616DED342007766CE /* SGHyphenator.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		DD17C14AFFB040E79B1A63B8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-SGHyphenatorTests-resources.sh\"\n";
+		};
 		F5434D0516DECB0F007766CE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,6 +266,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		F5434D2A16DED479007766CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "pwd\nls -l";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -252,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5434D1816DECB0F007766CE /* SGHyphenatorTests.m in Sources */,
+				F5434D2416DECEF5007766CE /* SGHyphenatorSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +401,7 @@
 		};
 		F5434D1F16DECB0F007766CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C607F730C24A42AB8B9B59 /* Pods-SGHyphenatorTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -371,6 +417,7 @@
 		};
 		F5434D2016DECB0F007766CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C607F730C24A42AB8B9B59 /* Pods-SGHyphenatorTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -403,6 +450,7 @@
 				F5434D1D16DECB0F007766CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5434D1E16DECB0F007766CE /* Build configuration list for PBXNativeTarget "SGHyphenatorTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +459,7 @@
 				F5434D2016DECB0F007766CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
