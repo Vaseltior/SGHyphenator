@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F5434CF516DECB0F007766CE"
+               BlueprintIdentifier = "F5434D3316DEE2FC007766CE"
                BuildableName = "libSGHyphenator.a"
                BlueprintName = "SGHyphenator"
                ReferencedContainer = "container:SGHyphenator.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F5434D0616DECB0F007766CE"
+               BlueprintIdentifier = "F5434D4416DEE2FC007766CE"
                BuildableName = "SGHyphenatorTests.octest"
                BlueprintName = "SGHyphenatorTests"
                ReferencedContainer = "container:SGHyphenator.xcodeproj">

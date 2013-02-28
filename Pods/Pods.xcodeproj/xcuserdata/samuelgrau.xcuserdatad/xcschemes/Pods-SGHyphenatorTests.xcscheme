@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CE247BF3FFC44E5EBA4E08F6"
+               BlueprintIdentifier = "A712289F69044C328374A59C"
                BuildableName = "libPods-SGHyphenatorTests.a"
                BlueprintName = "Pods-SGHyphenatorTests"
                ReferencedContainer = "container:Pods.xcodeproj">
